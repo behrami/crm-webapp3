@@ -1,0 +1,64 @@
+h1 {
+    background: Black;
+    font-weight: bold;
+    text-align: center;
+    color: White;
+    font-size: 40px;
+    margin: 1px;
+    padding: 10px
+}
+
+.header{
+  text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00FFFF;
+}
+
+h3 {
+  background: grey;
+  font-weight: bold;
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  margin: 1px;
+  padding: 10px;
+}
+
+.contact_num{
+  background: red;
+  color: black;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+li {
+  background: #00FFFF;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+}
+
+p{
+  font-weight: normal;
+}
+
+footer{
+  background: Black;
+  color: White;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+.person{
+  margin-top:10px;
+  color:black;
+}
