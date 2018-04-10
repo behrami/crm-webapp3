@@ -5,6 +5,15 @@
     <title></title>
   </head>
   <body>
-    <h1>Add a new contact</h1>
+    <h1>Create new Contact</h1>
+
+    <form class = "contactField" action='/contacts' method='post'>
+      <input type='text' name='first_name' placeholder="first name">
+      <input type='text' name='last_name' placeholder="last name">
+      <input type='text' name='email' placeholder="email">
+      <input type='text' name='note' placeholder="note">
+      <input type='submit' value='New Contact'>
+    </form>
+
   </body>
 </html>
