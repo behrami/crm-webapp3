@@ -5,15 +5,19 @@
     <title></title>
   </head>
   <body>
-    <h1>Edit a Contact</h1>
+    <h1>Delete a Contact</h1>
 
     <form action='/contacts/<%= @contact.id %>' method='post'>
-      <input type='hidden' name='_method' value='put'>
+      <input type='hidden' name='_method' value='delete'>
       <input type='text' name='first_name' value='<%= @contact.first_name %>'>
       <input type='text' name='last_name' value='<%= @contact.last_name %>'>
       <input type='text' name='email' value='<%= @contact.email %>'>
       <input type='text' name='note' value='<%= @contact.note %>'>
-      <input type='submit' value='Edit Contact'>
+      <input type='submit' value='Delete Contact'>
+    </form>
+
+    <form action='/contacts' method='get'>
+      <input type='submit' value='Go Back'>
     </form>
     
   </body>

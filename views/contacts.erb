@@ -10,9 +10,11 @@
 
     <ul>
       <% @contactlist.each do |contact| %>
+
         <li><%= contact.full_name + " (" + contact.email_address + ") " %>
-            <p><a href = "/contacts/<%= contact.id %>/edit"> Edit</a> | <a href = "#"> Delete </a></p>
+            <p><a href = "/contacts/<%= contact.id %>/edit"> Edit</a> | <a href = "/contacts/<%= contact.id %>/delete"> Delete</a></p>
         </li>
+
       <% end %>
     </ul>
 
